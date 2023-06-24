@@ -1,11 +1,13 @@
 import Navbar from '../Components/Navbar'
+import Card from '../Components/Card'
 
 function Achievment(){
     return(
 
         <>
         <Navbar />
-        <h2>HALAMAN INI BERISI TENTANG ACHIEVMENT TAEKWONDO PNJ</h2>
+        <Card />
+
         </>
 
     );

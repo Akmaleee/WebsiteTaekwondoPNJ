@@ -1,11 +1,12 @@
 import Navbar from '../Components/Navbar'
+import List from '../Components/List'
 
 function Jadwal(){
     return(
 
         <>
         <Navbar />
-        <h2>HALAMAN INI BERISI TENTANG JADWAL LATIHAN DAN JADWAL TURNAMENT</h2>
+        <List />
         </>
 
     );

@@ -1,11 +1,10 @@
-import Navbar from '../Components/Navbar'
+import Error from '../Components/Error'
 
 function NoPage(){
     return(
 
         <>
-        <Navbar />
-        <h2>Error 404: Not found</h2>
+        <Error />
         </>
 
     );

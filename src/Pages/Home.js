@@ -1,11 +1,14 @@
 import Navbar from '../Components/Navbar'
+import Text from '../Components/Text'
 
 function Home(){
     return(
 
         <>
+        
         <Navbar />
-        <h2>HALAMAN INI BERISI TENTANG DESKRIPSI TAEKWONDO PNJ</h2>
+        <Text />
+
         </>
 
     );
