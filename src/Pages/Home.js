@@ -2,6 +2,8 @@ import Navbar from '../Components/Navbar'
 import Text from '../Components/Text'
 import Heading from '../Components/Heading'
 import Button from '../Components/Button'
+import Footer from '../Components/Footer';
+
 
 
 
@@ -18,8 +20,10 @@ function Home() {
             <Text />
             <div className="flex items-center justify-center pt-14">
               <Button />
+              
     
             </div>
+
           </div>
         </div>
       </div>

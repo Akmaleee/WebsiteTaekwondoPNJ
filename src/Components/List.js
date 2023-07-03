@@ -1,7 +1,7 @@
 function List (){
     return(
 
-      <div class='pl-20 pt-44'>
+      <div class='pl-20 pt-16'>
 <ol class="items-center sm:flex">
     <li class="relative mb-6 sm:mb-0">
         <div class="flex items-center">
