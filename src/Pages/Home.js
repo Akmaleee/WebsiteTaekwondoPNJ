@@ -2,7 +2,8 @@ import Navbar from '../Components/Navbar'
 import Text from '../Components/Text'
 import Heading from '../Components/Heading'
 import Button from '../Components/Button'
-
+import {Slider } from '../Components/slider'
+import slides from '../mock.json'
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
             <Heading />
             <hr className="border-t-2 border-gray-400" />
             <Text />
+            <Slider slides={slides}/>
             <div className="flex items-center justify-center pt-14">
               <Button />
     
