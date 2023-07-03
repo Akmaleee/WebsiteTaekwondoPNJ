@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: normal;
+    scrollbar-color: var(--color-primary);
+}
+
+html::-webkit-scrollbar{
+    width: 0.2rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: navy;
+    border-radius: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--color-bg-variant);
+}
