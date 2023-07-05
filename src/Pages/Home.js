@@ -19,10 +19,11 @@ function Home() {
           <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />
           <div className="absolute top-0 left-0 right-0 bottom-0">
             <Heading />
-
-            <hr className="border-t-2 border-gray-400" />
-                       <Text />
             
+            <hr className="border-t-2 border-gray-400" />
+            <Slider slides={slides}/>
+                       <Text />
+                       
             <div className="flex items-center justify-center pt-14">
               <Button />
             </div>
