@@ -16,3 +16,29 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
     background-color: var(--color-bg-variant);
 }
+
+.swiper {
+    width: 400px;
+    height: 300px;
+  }
+
+  .slider-container {
+    position: relative;
+  }
+  
+  .slider-container .swiper-button-prev,
+  .slider-container .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .slider-container .swiper-button-prev {
+    left: 0;
+  }
+  
+  .slider-container .swiper-button-next {
+    right: 0;
+  }
+  
