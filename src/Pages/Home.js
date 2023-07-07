@@ -1,39 +1,41 @@
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 import Text from '../Components/Text'
 import Heading from '../Components/Heading'
 import Button from '../Components/Button'
 import Footer from '../Components/Footer'
 import Fotofoto from '../Components/Fotofoto'
-import {Slider}  from '../Components/slider'
-import slides from '../mock.json'
+import Popup from '../Components/Popup'
+import Slider from '../Components/slider'
 
 
 
 
 function Home() {
     return (
-      <div className="h-screen ">
-        <Navbar />
-        <div className="relative">
-          <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />
-          <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />
-          <div className="absolute top-0 left-0 right-0 bottom-0">
+      <>
+        {/* <div className="home"> */}
+          {/* <img src="images/bg7.png" alt="Foto" className="w-full h-auto" /> */}
+          <div className="home top-0 left-0 right-0 bottom-0 h-screen">
             <Heading />
-            
             <hr className="border-t-2 border-gray-400" />
-            <Slider slides={slides}/>
+            <Slider />
                        <Text />
-                       
-            <div className="flex items-center justify-center pt-14">
+            <div className="flex items-center justify-center pt-12 space-x-4 pl-[35px]">
+              
               <Button />
-            </div>
+              <Popup />
+              </div>
+              
             <Fotofoto />
-            <div className='absolute bottom-0 w-full z-10'>
+            {/* <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />\
+            <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />
+            <img src="images/bg7.png" alt="Foto" className="w-full h-auto" />
+            <img src="images/bg7.png" alt="Foto" className="w-full h-auto" /> */}
               <Footer />
-            </div>
+            
           </div>
-        </div>
-      </div>
+        {/* </div> */}
+      </>
     );
   }
   

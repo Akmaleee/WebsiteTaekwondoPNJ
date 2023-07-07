@@ -1,11 +1,11 @@
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 
 
 function Achievment(){
     return(
 
         <>
-        <Navbar />
+        {/* <Navbar /> */}
         
 
         </>
