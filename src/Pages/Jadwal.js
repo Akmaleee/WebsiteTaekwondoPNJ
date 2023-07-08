@@ -6,16 +6,11 @@ function Jadwal(){
     return(
 
         <>
-        {/* <Navbar /> */}
-        <div className="relative">
-          <img src="images/bg7.png" alt="Foto" className="w-full " />
-          <div className="absolute top-0 left-0 right-0 bottom-0">
+        <div className="home top-0 left-0 right-0 bottom-0 h-screen">
         <Tables />
-        
         <List />
         </div>
-        </div>
-      
+        
         </>
 
     );

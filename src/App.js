@@ -5,28 +5,23 @@ import Jadwal from './Pages/Jadwal'
 import Anggota from './Pages/Anggota'
 import NoPage from './Pages/NoPage'
 import Navbar from './Components/Navbar'
-
 import './App.js'
-
 import './App.css'
 
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div>
         <Routes>
-          {/* <Route> */}
-
-          {/* <Route index element={<Home />}/> */}
+    
           <Route path="/home" element={<Home />} />
           <Route path="/achievment" element={<Achievment />} />
           <Route path="/Jadwal" element={<Jadwal />} />
           <Route path="/anggota" element={<Anggota />} />
           <Route path="*" element={<NoPage />} />
 
-          {/* </Route> */}
         </Routes>
       </div>
     </>

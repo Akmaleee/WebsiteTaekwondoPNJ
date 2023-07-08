@@ -27,7 +27,12 @@ html::-webkit-scrollbar-track {
   height: 600px;
   animation-duration: 5s;
 }
-
+/* @media (min-width: 640px) {
+  .swiper {
+  width: 800px;
+  height: 50px;
+  } 
+} */
 .home {
   background-image: url('http://localhost:3000/images/bg7.png');
 }
