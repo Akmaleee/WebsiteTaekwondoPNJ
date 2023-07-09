@@ -18,49 +18,49 @@ function Rounded() {
         <h1 className='text-3xl font-bold pb-5 text-center text-[#edfaff]' >PORSENI XIII - 2022</h1>
         </div>
         <div className="flex space-x-4">
-              <div className="flex-3 ml-40 rounded pl-4 text-center ">
-                <img src={acelporseni} alt="" className="w-full rounded-xl mb-1 ml-10 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold text-[#000000]  ">Gracela Rizquensa Hartawan</h3>
-                <p className="text-gray-800">Juara 1 Kyorugi Putri U-53kg</p>
+              <div className="flex-3 ml-40 rounded pl-5 text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={acelporseni} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-gray-800 pt-2 ">Gracela Rizquensa Hartawan</h3>
+                <p className=" text-gray-800 pb-5 pt-2">Juara 1 Kyorugi Putri U-53kg</p>
                 </div>
               </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={ipehporseni} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold  text-[#000000]  ">Lathifah Dini Ishamiyyah</h3>
-                <p className="text-gray-800">Juara 3 Kyorugi Putri U-49kg</p>
+              <div className="flex-3 rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={ipehporseni} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold  text-gray-800 pt-2 ">Lathifah Dini Ishamiyyah</h3>
+                <p className=" text-gray-800 pb-5 pt-2">Juara 3 Kyorugi Putri U-49kg</p>
                 </div>
               </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={ditoporseni} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold text-[#000000]  ">Maulana Anandito</h3>
-                <p className="text-gray-800">Juara 3 Kyorugi Putra U-74kg</p>
+              <div className="flex-3  rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={ditoporseni} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold  text-gray-800 pt-2 ">Maulana Anandito</h3>
+                <p className=" text-gray-800 pb-5 pt-2">Juara 3 Kyorugi Putra U-74kg</p>
                 </div>
               </div>
             </div>
             <div className="flex space-x-4">
-              <div className="flex-3 ml-40 rounded pl-4 text-center ">
-                <img src={malaporseni} alt="" className="w-full rounded-xl mb-1 ml-10 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold text-[#000000]  "> Arlisa Nurmala Mulyaningsi</h3>
-                <p className="text-gray-800">Juara 1 Kyorugi Putri U-48kg</p>
+             <div className="flex-3 ml-40 rounded pl-5 text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={malaporseni} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Arlisa Nurmala Mulyaningsi</h3>
+                <p className="text-gray-800 pb-5 pt-2">Juara 1 Kyorugi Putri U-48kg</p>
                 </div>
               </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={pairporse} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold  text-[#000000]  ">Rachmat Gilang Maulana</h3>
-                <h3 className="text-2xl font-semibold  text-[#000000]  ">Kharisma Putri Nandhika</h3>
-                <p className="text-gray-800">Juara 3 Poomsae Mix</p>
-                </div>
-              </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={gilangporseni} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
+              <div className="flex-3  rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={pairporse} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Kharisma Putri Nandhika</h3>
                 <h3 className="text-2xl font-semibold text-[#000000]  ">Rachmat Gilang Maulana</h3>
-                <p className="text-gray-800">Juara 1 Poomsae Individu Putra</p>
+                <p className="text-gray-800 pb-5 pt-2">Juara 3 Poomsae Mix</p>
+                </div>
+              </div>
+              <div className="flex-3 rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={gilangporseni} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Rachmat Gilang Maulana</h3>
+                <p className="text-gray-800 pb-5 pt-2">Juara 1 Poomsae Individu Putra</p>
                 </div>
               </div>
             </div>
@@ -69,26 +69,26 @@ function Rounded() {
         <h1 className='text-3xl font-bold pb-5 text-center text-[#edfaff]' >LIGA TAEKWONDO DKI JAKARTA 2</h1>
         </div>
         <div className="flex space-x-4">
-              <div className="flex-3 ml-40 rounded pl-4 text-center ">
-                <img src={nopal} alt="" className="w-full rounded-xl mb-1 ml-10 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold text-[#000000]  ">Naufal Arkan Tholud</h3>
-                <p className="text-gray-800">Juara 1 Kyorugi Putra U-63kg</p>
+              <div className="flex-3 ml-40 rounded pl-5 text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={nopal} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Naufal Arkan Tholud</h3>
+                <p className="text-gray-800 pb-5 pt-2">Juara 1 Kyorugi Putra U-63kg</p>
                 </div>
               </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={pomse} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
+              <div className="flex-3 rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={pomse} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Fadila Nur Hasan</h3>
                 <h3 className="text-2xl font-semibold  text-[#000000]  ">Aldi Dwi Permana</h3>
-                <h3 className="text-2xl font-semibold  text-[#000000]  ">Fadila Nur Hasan</h3>
-                <p className="text-gray-800">Juara 1 Poomsae Pair</p>
+                <p className="text-gray-800 pb-5 pt-2">Juara 1 Poomsae Pair</p>
                 </div>
               </div>
-              <div className="flex-3 rounded  text-center">
-                <img src={maya} alt="" className="w-full rounded-xl mb-4 max-w-[400px]" />
-                <div className='bg-[#f4f4f4] pt-1 mx-auto my-10 rounded-2xl  shadow-xl text-[#000000] max-w-[20vw] flex-col justify-center'>
-                <h3 className="text-2xl font-semibold text-[#000000]  ">Syai Khumayyah</h3>
-                <p className="text-gray-800">Juara 1 Kyorugi Putri U-57kg</p>
+              <div className="flex-3 rounded text-center ">
+                <div className='bg-[#fdf7e5] pt-1 mx-auto mb-10 rounded-2xl shadow-xl text-[#000000] max-w-[40w] flex-col justify-center'>
+                <img src={maya} alt="" className="w-full rounded-xl mb-1 justify-center max-w-[400px] mt-5 ml-5 mr-5" />
+                <h3 className="text-2xl font-semibold text-[#000000] pt-2 ">Syai Khumayyah</h3>
+                <p className="text-gray-800 pb-5 pt-2">Juara 1 Kyorugi Putri U-57kg</p>
                 </div>
               </div>
             </div>
