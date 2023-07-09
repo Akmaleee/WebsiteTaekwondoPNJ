@@ -8,7 +8,7 @@ import maya from '../foto/maya-dki.jpg';
 import pomse from '../foto/aldidila-dki.jpg';
 import gilangporseni from '../foto/gilang-porseni.jpg';
 
-function Rounded() {
+function Rounded() {  
     return (
         <section className="my-4">
         <>
