@@ -95,6 +95,6 @@ function Rounded() {
         </section>
       
     )
-}
+}  
 
 export default Rounded;
