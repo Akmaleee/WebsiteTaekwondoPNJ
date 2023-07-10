@@ -7,7 +7,7 @@ import Footer from '../Components/Footer'
 
 function Achievment(){
     return(
-
+  
         <>
         <div className="relative" >
         <img src="images/bg7.png" alt="Foto" className="w-full "/>

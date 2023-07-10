@@ -10,7 +10,7 @@ import gilangporseni from '../foto/gilang-porseni.jpg';
 
 function Rounded()  {  
     return (
-        <section className="my-4">
+        <section className="my-4">   
         <> 
         <h1 className='  font-bold pb-5 pt-10 text-center text-gray-700  text-5xl' >  PRESTASI TAEKWONDO POLITEKNIK NEGERI JAKARTA</h1>
         </>
