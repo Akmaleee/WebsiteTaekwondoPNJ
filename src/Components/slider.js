@@ -19,7 +19,7 @@ const productList = [
     height: "tall",
   },
   {
-    href: "images/bg4.png",
+    href: "images/bgbaru.jpg",
     brand: "Truthear x Crinacle",
     name: "ZERO:RED",
     bgcolor: "dark",
@@ -60,7 +60,7 @@ export const ProductCarousel = () => {
         {productList.map((item) => (
           <div key={item.href}>
             <img
-              className="object-cover w-full h-[30rem] rounded-xl"
+              className="object-cover w-full xl:h-[30rem] md:h-[250px] sm:h-[300px] rounded-xl"
               src={item.href}
               alt="Card 1"
               onLoad={handleImageLoad}

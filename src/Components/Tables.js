@@ -1,10 +1,10 @@
 export default function Tables(){
     return(
-        <div className="flex justify-center pt-6 ">
-            <div className="relative overflow-x-auto">
-                <h1 className="pt-12 mb-4 pb-[40px]  font-extrabold tracking-tight text-center text-gray-700 lg:text-4xl">JADWAL LATIHAN RUTIN</h1>
-                <table className="w-[1000px] text-center text-gray-500 dark:text-gray-400">
-                    <thead className="uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <div className="flex justify-center pt-12 ">
+            <div className="">
+                <h1 className="bg-[#C2DEDC] h-[40px]  xl:w-[400px] sm:w-[50px] pt-10 pb-10 mb-10 pb-[40px] rounded-full text-center flex items-center justify-center mx-auto font-extrabold tracking-tight text-gray-700 lg:text-4xl">Jadwal Latihan Rutin</h1>
+                <table className="xl:w-[800px] sm:w-[100px]  text-center text-black ">
+                    <thead className="uppercase bg-[#9BA4B5]">
                         <tr>
                             <th scope="col" className="px-6 py-3">
                                 Practice Day
@@ -21,7 +21,7 @@ export default function Tables(){
                         </tr>
                     </thead>
                     <tbody>
-                        <tr className="border-b dark:bg-gray-800 dark:border-gray-700">
+                        <tr className="border-b bg-[#F1F6F9] dark:border-gray-700">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                 Senin
                             </th>
@@ -32,35 +32,35 @@ export default function Tables(){
                                 Teknik
                             </td>
                             <td className="px-6 py-4">
-                                Parkiran lantai 100
+                                Parkiran lantai 4
                             </td>
                         </tr>
-                        <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <tr className=" border-b bg-[#F1F6F9] ">
                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 Rabu
                             </th>
                             <td className="px-6 py-4">
-                                16.00-17.30
+                                16.00-18.00
+                            </td>
+                            <td className="px-6 py-4">
+                                Teknik
+                            </td>
+                            <td className="px-6 py-4">
+                                Parkiran lantai 4
+                            </td>
+                        </tr>
+                        <tr className="bg-[#F1F6F9]">
+                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                                Sabtu
+                            </th>
+                            <td className="px-6 py-4">
+                                09.00-12.00
                             </td>
                             <td className="px-6 py-4">
                                 Fisik
                             </td>
                             <td className="px-6 py-4">
-                                Kantin Teknik
-                            </td>
-                        </tr>
-                        <tr className="bg-white dark:bg-gray-800">
-                            <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                                Jumat
-                            </th>
-                            <td className="px-6 py-4">
-                                00.00 - 03.00
-                            </td>
-                            <td className="px-6 py-4">
-                                Mental
-                            </td>
-                            <td className="px-6 py-4">
-                                Kuburan
+                                Lapangan Spirit
                             </td>
                         </tr>
                     </tbody>
