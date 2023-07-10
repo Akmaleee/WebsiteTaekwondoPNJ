@@ -2,9 +2,9 @@ export default function Tables(){
     return(
         <div className="flex justify-center pt-12 ">
             <div className="">
-                <h1 className="bg-[#C2DEDC] h-[40px]  xl:w-[400px] sm:w-[50px] pt-10 pb-10 mb-10 pb-[40px] rounded-full text-center flex items-center justify-center mx-auto font-extrabold tracking-tight text-gray-700 lg:text-4xl">Jadwal Latihan Rutin</h1>
-                <table className="xl:w-[800px] sm:w-[100px]  text-center text-black ">
-                    <thead className="uppercase bg-[#9BA4B5]">
+                <h1 className="bg-[#606C5D] h-[60px] xl:w-[400px] sm:w-[50px]  mb-10  rounded-full text-center flex items-center justify-center mx-auto font-extrabold tracking-tight shadow-xl text-[#F7FFE5] lg:text-4xl">Jadwal Latihan Rutin</h1>
+                <table className=" xl:w-[800px] sm:w-[100px]  text-center ">
+                    <thead className="uppercase bg-[#A4907C] text-[#FBFFDC]">
                         <tr>
                             <th scope="col" className="px-6 py-3">
                                 Practice Day

@@ -5,28 +5,28 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const productList = [
   {
-    href: "images/bg2.png",
+    href: "images/bgbaru.jpg",
     brand: "Acer",
     name: "Nitro 5 2023",
     bgcolor: "dark",
     height: "tall",
   },
   {
-    href: "images/bg3.png",
+    href: "images/banner1.jpg",
     brand: "",
     name: "Nitro 16",
     bgcolor: "dark",
     height: "tall",
   },
   {
-    href: "images/bgbaru.jpg",
+    href: "images/banner2.jpg",
     brand: "Truthear x Crinacle",
     name: "ZERO:RED",
     bgcolor: "dark",
     height: "tall",
   },
   {
-    href: "images/bg5.png",
+    href: "images/banner4.jpg",
     brand: "MSI",
     name: "Stealth GS77",
     bgcolor: "dark",
@@ -45,7 +45,7 @@ export const ProductCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2500,
     width: 500,
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
   };
@@ -55,12 +55,12 @@ export const ProductCarousel = () => {
   };
 
   return (
-    <div className="relative pt-10 flex justify-center ">
+    <div className="relative pt-5 flex justify-center rounded-xl ">
       <Slider {...carouselSettings} className="overflow-hidden w-1/2">
         {productList.map((item) => (
           <div key={item.href}>
             <img
-              className="object-cover w-full xl:h-[30rem] md:h-[250px] sm:h-[300px] rounded-xl"
+              className="object-cover w-full xl:h-[30rem] md:h-[250px] sm:h-[300px] rounded-xl "
               src={item.href}
               alt="Card 1"
               onLoad={handleImageLoad}

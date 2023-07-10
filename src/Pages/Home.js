@@ -14,13 +14,14 @@ function Home() {
     return (
       <>
 
-          <div className="home top-0 left-0 right-0 bottom-0 h-screen">
+          <div className="home left-0 right-0 bottom-0 ">
             <Heading />
             <hr className="border-t-2 border-gray-400" />
             <Slider />
+            
             <Text />
             
-            <div className="flex items-center justify-center pt-12 space-x-4 pl-[35px]">   
+            <div className="flex items-center justify-center pt-14 space-x-4 pl-[35px]">   
               <Button />
               <Popup />
             </div>

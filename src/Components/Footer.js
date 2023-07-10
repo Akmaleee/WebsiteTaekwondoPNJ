@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         
-<footer class="bg-[#2C3333] w-full my-[120px] bottom-0 left-0 min-h-[5%] sm:text-center">
+<footer class="bg-[#2C3333] w-full sm:text-center">
     <div class="w-full mx-auto max-w-screen-xl p-3 md:flex md:items-center md:justify-between">
       <div class="text-xs text-[#E7F6F2]">SOSIAL MEDIA TAEKWONDO POLITEKNIK NEGERI JAKARTA</div>
       <br/>

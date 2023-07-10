@@ -1,20 +1,17 @@
-import Profile from '../Components/Profile'
-import Profile2 from '../Components/Profile2'
+import Profile2 from "../Components/Profile2";
+import Textjadwal from "../Components/Textjadwal";
 
 
 function Anggota(){
     return(
 
-        <div >
-         <div className="home top-0 left-0 right-0 bottom-0 h-screen">
-    
-        <Profile />
-        
-        
+        <>
+        <div className="home left-0 right-0 bottom-0 ">
+        <Textjadwal />
+        <Profile2 />
         </div>
-        </div>
-       
-
+      
+        </>
     );
 }
 
