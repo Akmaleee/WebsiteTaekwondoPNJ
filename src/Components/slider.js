@@ -55,7 +55,7 @@ export const ProductCarousel = () => {
   };
 
   return (
-    <div className="relative pt-5 flex justify-center rounded-xl ">
+    <div className=" pt-5 flex justify-center rounded-xl ">
       <Slider {...carouselSettings} className="overflow-hidden w-1/2">
         {productList.map((item) => (
           <div key={item.href}>

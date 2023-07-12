@@ -5,6 +5,7 @@ import Jadwal from './Pages/Jadwal'
 import Anggota from './Pages/Anggota'
 import NoPage from './Pages/NoPage'
 import Navbar from './Components/Navbar'
+import Header from './Components/Header';
 import './App.js'
 import './App.css'
 
@@ -12,7 +13,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <Navbar/>
+    <div >
+      <Header />
+      </div>  
       <div>
         <Routes>
 
