@@ -10,7 +10,7 @@ function Fotofoto() {
         <div className='flex mx-auto flex-wrap'>
             <Card src="images/proker1.jpg" alt="Rendang" title="PNJ CUP II" description="merupakan kejuaraan taekwondo ke-2 setelah 10 tahun yang akan diadakan kembali oleh Taekwondo PNJ, dan merupakan kejuaraan tingkat provinsi." />
             <Card src="images/proker2.jpg" alt="Rendang" title="REOR 2023" description="merupakan kegiatan reorganisasi tahunan Takewondo PNJ dalam rangka pemilihan dan pelantikan kepengurusan Taekwondo PNJ untuk tahun ajaran baru." />
-            <Card src="images/proker3.jpg" alt="Rendang" title="Taekwondo Traveler" description="merupakan kegiatan traveling ke tempat yang sudah disepakati dan biasanya diadakan setelah melaksanakan kejuaraan ataupun saat liburan semester" />
+            <Card src="images/proker3.JPG" alt="Rendang" title="Taekwondo Traveler" description="merupakan kegiatan traveling ke tempat yang sudah disepakati dan biasanya diadakan setelah melaksanakan kejuaraan ataupun saat liburan semester" />
 
         </div>
         
